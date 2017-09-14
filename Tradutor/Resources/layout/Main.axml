@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:text="Nova Palavra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/novaPalavra" />
+    <TextView
+        android:text="Palavra em Ingles:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Palavra" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Traducao" />
+    <Button
+        android:text="Traduzir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Traduzir"
+        android:layout_marginRight="0.0dp" />
+    <TextView
+        android:text="Resposta"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Resposta" />
+    <TextView
+        android:text="Pontuação"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Pontuacao" />
+</LinearLayout>
